@@ -1,0 +1,87 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ],
+      "@lib/*": [
+        "./src/lib/*"
+      ],
+      "@data/*": [
+        "./src/lib/data/*"
+      ],
+      "@action/*": [
+        "./src/lib/action/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@type/*": [
+        "./src/types/*"
+      ],
+      "@ui/*": [
+        "./src/ui/*"
+      ],
+      "@hooks/*": [
+        "./src/ui/hooks/*"
+      ],
+      "@infos/*": [
+        "./src/ui/infos/*"
+      ],
+      "@sections/*": [
+        "./src/ui/sections/*"
+      ],
+      "@navigation/*": [
+        "./src/ui/navigation/*"
+      ],
+      "@forms/*": [
+        "./src/ui/forms/*"
+      ],
+      "@icons/*": [
+        "./src/ui/icons/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@public/*": [
+        "./public/*"
+      ],
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
